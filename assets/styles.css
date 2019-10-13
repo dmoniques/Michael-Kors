@@ -20,10 +20,10 @@ a {
     overflow: hidden;
     text-transform: uppercase;
     width: 100%;
-    height: 44px;
+    height: 30px;
     background-color: rgb(10, 10, 10);
     color: white;
-    font-size: .75rem;
+    font-size: .65rem;
     letter-spacing: 1.75px;
     text-align: center;
 }
@@ -50,17 +50,21 @@ a {
 }
 
 .find-store-sign-in-container {
-    margin: 15px 100px 0 90px;
+    width: 70%;
+    margin: 15px 0 0 300px;
     padding: 0;
     display: flex;
     justify-content: center;
     background-color: white;
-    width: 100%;
     font-size: .75rem;
     letter-spacing: .05rem;
     justify-content: space-between;
-    align-items: baseline;
     position: relative;
+}
+
+.flag {
+    width: 15px;
+    height: auto;
 }
 
 .find-store-strip {
@@ -148,7 +152,7 @@ a:hover {
       margin-top: 50px;
       display: flex;
       justify-content: space-around;
-      margin-bottom: 1rem;
+      margin-bottom: 0;
   }
 
   .page-links-navbar {
@@ -164,29 +168,34 @@ a:hover {
 
   .hunger-box {
       box-sizing: border-box;
-      margin-top: 1rem;
-      padding-top: .1rem;
       background-color: rgb(10, 10, 10);
-      width: 90%;
-      height: 18rem;
+      width: 75%;
+      height: 13rem;
       color: white;
       margin: auto;
       text-align: center;
   }
 
   .hung-stop {
+      margin-top: .5rem;
+      padding-top: .75rem;
       font-weight: 900;
-      font-size: 1.4rem;
+      font-size: 1.2rem;
       letter-spacing: 2px;
   }
 
   .hung-stop-par {
       width: 55%;
       margin: auto;
-      font-size: .95rem;
+      font-size: .75rem;
       font-weight: 600;
       letter-spacing: .05rem;
       line-height: 1.55;
+      overflow: hidden;
+  }
+
+  .meals-don {
+      overflow: hidden;
   }
 
   .meals-donate-num {
@@ -208,11 +217,46 @@ a:hover {
     margin-top: 10rem;
     display: block;
     margin: 0 auto;  
-    width: 80%;
+    width: 70%;
   }
 
-  .promo-par {
+  .promo-par-1{
       margin-top: 1rem;
-      font-size: 2rem;
+      font-size: 2.3rem;
       text-align: center;
   }
+  .promo-par-2{
+      margin-top: 1rem;
+      font-size: .75rem;
+      text-align: center;
+  }
+
+  .char-space-wide {
+      letter-spacing: .5rem;
+  }
+
+  .michael-world-container {
+      width: 70%;
+      display: flex;
+      justify-content: space-between;
+      margin: 20px auto 100px;
+
+  }
+
+  .mw-promo-img {
+      justify-content: space-between;
+      width: 30%;
+  }
+
+  .mw-captions-container {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 300px;
+
+}
+
+.mw-captions {
+    justify-content: space-around;
+    width: 30%;
+}
